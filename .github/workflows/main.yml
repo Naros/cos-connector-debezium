@@ -1,11 +1,11 @@
 name: build and push to quay.io
 on:
   push:
-    branches: [ main ]
+    branches: [ 1.9.0.Alpha1 ]
   pull_request:
-    branches: [ main ]
+    branches: [ 1.9.0.Alpha1 ]
 env:
-  DEBEZIUM_VERSION: nightly
+  DEBEZIUM_VERSION: 1.9.0.Alpha1
   STRIMZI_VERSION: latest
   KAFKA_VERSION: 3.0.0
 
